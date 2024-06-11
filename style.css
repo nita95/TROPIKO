@@ -1,0 +1,29 @@
+.encabezado{
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+.menu {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    margin: 0;
+    padding: 0; 
+    
+  
+  }
+  
+  .logo img{
+    border: 2px solid black;
+    width: 40px;
+  }
+
+  .menu li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Ajusta el espacio entre los elementos */
+  }
+  
