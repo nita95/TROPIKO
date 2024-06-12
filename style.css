@@ -114,3 +114,30 @@
   font-family: Arial, sans-serif;
  
 }
+.inferior{
+  display: grid;  
+  grid-template-columns: repeat(3,930px);  
+  gap: 260px;
+  
+  width: 1450px;
+  padding-left: 70PX;
+  padding-top: 60PX;
+}
+.inferior form input{
+  font-size: 50px;
+  padding-right: 300px;
+}
+.btn_form input{
+    background-color: orange;
+    color: white;
+    
+    padding-left:60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.inferior form{
+  font-size: 60PX;
+}
+
+
+
