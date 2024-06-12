@@ -1,19 +1,25 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .encabezado{
-   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 2px solid black;
-   width: 2900px;
+  display: flex;
+  flex-direction: row;
+  gap: 500px;
 }
 .menu {
     list-style-type: none; /* Elimina los puntos de la lista */
-    width: 2900;
+    
   }
  
   .menu li {
-    display: inline; /* Muestra los elementos de la lista en línea */
+    display: inline;
     margin-right: 20px; /* Ajusta el espacio entre los elementos */
+  
   }
   .menu li img{
     width: 20px;
@@ -21,19 +27,44 @@
   }
   .menu2{
     background-color: rgb(236, 232, 232);
-     width: 2900;
+    display: grid;
+    grid-template-columns: repeat(2,700px);
+    gap: 150px;
+    
   }
-
+  .menu2_text h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    padding-left: 30px;
+    width: 550px;
+  }
+  .menu2_text p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-left: 30px;
+    width: 550px;
+  }
+.btnmenu2{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-left: 30px;
+}
   .btnmenu2 #compra{
     background-color: orange;
-   padding: 10px;
- }
-
- .btnmenu2 #contacto{
-     background-color: rgb(113, 107, 107);
-     size: 12 ;
+    color: white;
     padding: 10px;
-
+ }
+ .btnmenu2 #contacto{
+  background-color: rgb(113, 107, 107);
+  color: white;
+  padding: 10px;
+  
+}
+  .menu2 div img{
+    width: 380px;
+    margin-top: 60px;
+    margin-left: 150px;
   }
   
   .tarjeta {
@@ -41,14 +72,13 @@
     grid-template-columns: repeat(3, 350px) ;
     gap: 30px;
     justify-content: center;
-    padding: 20px;
-    width: 1500px;
+  
     
 }
 .tarjetas{
     border: 1px solid gray;
     text-align: center;
-    width: 2900;
+   
 }
 
 .tarjetas h3{
@@ -65,13 +95,22 @@
     background-color: rgb(87, 85, 85);
     padding: 10px ;
 }
-.frutas_frescas{
-    display: grid;
-    grid-template-columns: repeat(2,2900px);
+.tasty{
+  position: relative;
+  width: 1500px; /* Ancho de la imagen */
+ 
 }
-
-.inferior{
-    display: grid;
-    grid-template-columns: repeat(2,2500px);
+.tasty img{
+  width: 1500px;
 }
-
+.texto{
+  margin: 30px;
+  position: absolute;
+  top: 200px;
+  left:60px; 
+  right: 60px;
+  color: white;
+  font-size: 120px;
+  font-family: Arial, sans-serif;
+ 
+}
