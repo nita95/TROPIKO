@@ -3,24 +3,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
+  
 }
 
 .encabezado{
-  display: grid;
-  grid-template-columns: repeat(2,550px);
-  gap: 450px;
- 
+  display: flex;
+  gap: 750px;
+  position: relative;
   }
 
-section .logo{
+.logo{
 font-size: 30px;
 font-weight: bold;
-
-
 }
+
 .menu {
     list-style-type: none; /* Elimina los puntos de la lista */
-    
   }
  
  .menu li {
@@ -39,31 +38,35 @@ font-weight: bold;
 }
 
   .menu2{
-    background-color: rgb(251, 244, 244);
-    display: grid;
-    grid-template-columns: repeat(2,700px);
-    padding-top: 150px;
-    width: 1450PX;
-    height: 500px;
-    
+   background-color: rgb(251, 244, 244);
+   display: flex;
+   width: 1500px; 
     
   }
+
+  .menu2_text{
+   flex: 1; 
+   margin: 10px;
+   padding: 50px;
+    }
+
+
   .menu2_text h2{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 66px;
     font-weight: bold;
-    padding-left: 30px;
-    width: 600px;
+   
  
   }
   .menu2_text p{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 28px;
-    padding-left: 20px;
-    width: 600px;
+   
   }
   .menu2 div img{
-    width: 590px;
+    flex: 1; 
+   margin: 10px;
+   padding: 50px;
    
   }
 .btnmenu2{
@@ -84,19 +87,33 @@ font-weight: bold;
   
 }
 
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicios h1{
+  font-size: 50px;
+}
+
+.servicios p{
+  font-size: 25px;
+}
+
 .tarjeta {
-    display: grid;
-    grid-template-columns: repeat(3, 460px) ;
-    gap: 40px;
-    padding: 10px;
+    display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 20px;
+    gap: 30PX;
+    width:1300px;
+    margin-bottom: 50px ;
 
 }
 .tarjetas{
     border: 1px solid rgb(220, 218, 218);
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .tarjetas h3{
@@ -108,20 +125,12 @@ font-weight: bold;
     color:white;
     font-size: 25px;
     padding: 10px ;
-    
-}
-.servicios  {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.servicios h1{
-  font-size: 50px;
-}
-.servicios p{
-  font-size: 25px;
-}
+  }
 
+.frutas_frescas{
+
+  
+}
 
 .container_fruta{
   display: grid;
@@ -129,7 +138,7 @@ font-weight: bold;
   padding: 50px;
   position: relative;
   height: 350px;
-  border: 2px black;
+ 
 }
 
 .frutas img {
